@@ -60,9 +60,7 @@
     <!-- **** About Section **** -->
     <section id="about">
       <div class="container">
-        <h2 class="section-title">
-          About me
-        </h2>
+        <h2 class="section-title">About me</h2>
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image">
@@ -102,10 +100,146 @@
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">
-            Projects
-          </h2>
+          <h2 class="section-title dark-blue-text">Projects</h2>
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Cheflicious</h3>
+                <div>
+                  <p class="mb-4">
+                    Cheflicious is a recipe sharing website for users to publish
+                    their own recipe. Users can signup and sign in to the app
+                    and be able to post their recipe. It also has a follow
+                    system where users can follow other user and vice versa.
+                    This project is created with Nextjs for server side
+                    rendering, static site generation, and for better SEO. For
+                    the backend, I use Nodejs and express to create the RESTful
+                    API, and uses MongoDB as database and AWS S3 for storing
+                    images. For realtime communication i use socket.io to send
+                    notification to user whenever other user commented or liked
+                    their recipe.
+                  </p>
+                </div>
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://cheflicious.online"
+                >
+                  See Live
+                </a>
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Yanto3528/cheflicious-frontend"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img
+                      class="img-fluid"
+                      src="./assets/cheflicious-desktop-ss.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
 
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Shortly</h3>
+                <div>
+                  <p class="mb-4">
+                    A simple landing page for url shortener services. This
+                    project is created as part of participating challenges on
+                    frontendmentor.io. For this project, I use Nextjs for static
+                    site generation.
+                  </p>
+                </div>
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://shortly-wine.vercel.app"
+                >
+                  See Live
+                </a>
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Yanto3528/shortly"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img
+                      class="img-fluid"
+                      src="./assets/shortly-desktop-ss.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Github Jobs</h3>
+                <div>
+                  <p class="mb-4">
+                    A simple website for searching jobs with Github Job API.
+                    users can search jobs based on title, companies, location,
+                    etc. This projects is created as part of participating
+                    challenges on devchallenges.io. I uses Nextjs for server
+                    side rendering and static site generation.
+                  </p>
+                </div>
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://githubjobs.vercel.app"
+                >
+                  See Live
+                </a>
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Yanto3528/github-jobs"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="#!" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img
+                      class="img-fluid"
+                      src="./assets/github-jobs-desktop-ss.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
           <!-- Each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
@@ -116,7 +250,9 @@
                     Unicion is a social media app with some core functionalities
                     such as user authentication, send and receive friend
                     request, creating post and viewing friend's post, see other
-                    people's profile and realtime notification.
+                    people's profile and update user profile and realtime
+                    notification when someone comment or like their post. I
+                    created this with React, Node, MongoDB and socket.io.
                   </p>
                 </div>
                 <a
@@ -139,7 +275,10 @@
               <div class="project-wrapper__image">
                 <a href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/Unicion-min.jpg" />
+                    <img
+                      class="img-fluid"
+                      src="./assets/unicion-desktop-ss.jpg"
+                    />
                   </div>
                 </a>
               </div>
@@ -179,50 +318,9 @@
               <div class="project-wrapper__image">
                 <a href="#!" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/MovieHero-min.jpg" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Contact Keeper</h3>
-                <h4 class="project-wrapper__text-subtitle">
-                  React, Nodejs, MongoDB
-                </h4>
-                <div>
-                  <p class="mb-4">
-                    A small app for storing contact.
-                  </p>
-                </div>
-                <a
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://contact-keeper3528.herokuapp.com/"
-                >
-                  See Live
-                </a>
-                <a
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/Yanto3528/contact-keeper"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
                     <img
                       class="img-fluid"
-                      src="./assets/ContactKeeper-min.jpg"
+                      src="./assets/movie-hero-desktop-ss.jpg"
                     />
                   </div>
                 </a>
@@ -238,16 +336,12 @@
     <!-- **** Contact Section **** -->
     <section id="contact">
       <div class="container">
-        <h2 class="section-title">
-          Contact
-        </h2>
+        <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper">
           <p class="contact-wrapper__text">
             Contact me at: yanto3528@gmail.com
           </p>
-          <p class="contact-wrapper__text">
-            Phone Number: (62) 856-6875-3528
-          </p>
+          <p class="contact-wrapper__text">Phone Number: (62) 856-6875-3528</p>
           <a
             target="_blank"
             class="cta-btn cta-btn--resume"
